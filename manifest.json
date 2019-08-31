@@ -1,0 +1,15 @@
+{
+  "name": "TabScrapper",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "description": "Chrome extension to save and open tabs to Scrapbox",
+  "permissions": [
+    "tabs",
+    "*://scrapbox.io/*"
+  ],
+  "browser_action": {},
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  }
+}
